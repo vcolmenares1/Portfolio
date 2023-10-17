@@ -75,7 +75,7 @@ section.hero {
 }
 .projectContainer {
     display: flex;
-    gap: 24px;
+    gap: 0px;
     align-items: stretch;
 }
 .projectCard {
@@ -84,7 +84,9 @@ section.hero {
     background: var(--white);
 }
 .cardImage {
-    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
 }
 .cardContent {
     padding: 16px;
